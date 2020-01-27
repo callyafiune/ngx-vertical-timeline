@@ -1,0 +1,23 @@
+{
+  "name": "ngx-vertical-timeline",
+  "version": "0.0.1",
+  "description": "Module for creating Responsive Vertical Timeline",
+  "author": "Cally Afiune",
+  "keywords": [
+    "angular",
+    "typescript",
+    "css",
+    "timeline",
+    "vertical-timeline",
+    "responsive"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callyafiune/ngx-vertical-timeline"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}

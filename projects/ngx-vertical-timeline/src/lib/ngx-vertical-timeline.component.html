@@ -1,0 +1,19 @@
+
+<div id="timeline">
+  <div *ngFor="let item of list; let i = index" class="timeline-item">
+    <div [class]="item.styleClass? item.styleClass: ''">
+      <div class="timeline-icon">
+        <span class="item-icon {{item?.icon}}"></span>
+      </div>
+      <div class="timeline-content" [class.right]="i % 2 !== 0">
+        <h2>{{item?.title}}</h2>
+        <p>
+          {{item?.content}}
+        </p>
+        <button *ngIf="item?.command" class="btn bg-purple" (click)="action(item)">
+          <i class="fa fa-search-plus"></i> {{item?.label}}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
