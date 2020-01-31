@@ -1,3 +1,4 @@
+Angular Vertical Timeline
 
 ### Live Example
 [On Stackblitz](https://stackblitz.com/edit/ngx-vertical-timeline)
