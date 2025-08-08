@@ -3,7 +3,7 @@
 An Angular component for creating a responsive vertical timeline. This is an updated version for Angular 18+ using standalone components.
 
 ### Live Example
-[On Stackblitz](https://stackblitz.com/edit/ngx-vertical-timeline) (link to original example)
+[On Stackblitz](https://stackblitz.com/~/github.com/callyafiune/ngx-vertical-timeline) (link to original example)
 
 ## Installation
 
