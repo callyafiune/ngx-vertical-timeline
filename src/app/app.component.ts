@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { TimelineItem } from 'projects/ngx-vertical-timeline/src/public-api';
+import { TimelineItem, NgxVerticalTimelineComponent } from 'ngx-vertical-timeline';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [NgxVerticalTimelineComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

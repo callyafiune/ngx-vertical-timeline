@@ -7,24 +7,23 @@ $ npm i ngx-vertical-timeline
 
 ### Import
 
+In your standalone component, import `NgxVerticalTimelineComponent`.
+
 ```javascript
-import { NgxVerticalTimelineModule } from 'ngx-vertical-timeline';
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    NgxVerticalTimelineModule
-    ...
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+import { NgxVerticalTimelineComponent } from 'ngx-vertical-timeline';
+
+@Component({
+  ...
+  standalone: true,
+  imports: [NgxVerticalTimelineComponent],
+  ...
 })
-export class AppModule { }
+export class YourComponent { }
 ```
 ### Component
 
 ```javascript
+import { TimelineItem } from 'ngx-vertical-timeline';
 ...
   items: TimelineItem[] = [];
   externalVariable = 'hello';
@@ -35,7 +34,6 @@ export class AppModule { }
     this.items.push({
       label: 'Action',
       icon: 'fa fa-calendar-plus-o',
-      styleClass: 'teste',
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
       title: '18 de June, 2019, 10:12',
@@ -47,7 +45,6 @@ export class AppModule { }
     this.items.push({
       label: 'Action',
       icon: 'fa fa-plus',
-      styleClass: 'teste',
       content: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat.`,
       title: '11 de November, 2019, 12:00',
@@ -60,5 +57,5 @@ export class AppModule { }
 ### Template
 
 ```html
-<lib-ngx-vertical-timeline [(items)]="items"></lib-ngx-vertical-timeline>
+<lib-ngx-vertical-timeline [items]="items"></lib-ngx-vertical-timeline>
 ```
