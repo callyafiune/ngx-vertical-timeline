@@ -24,10 +24,7 @@
     ],
     "paths": {
       "ngx-vertical-timeline": [
-        "dist/ngx-vertical-timeline"
-      ],
-      "ngx-vertical-timeline/*": [
-        "dist/ngx-vertical-timeline/*"
+        "projects/ngx-vertical-timeline/src/public-api.ts"
       ]
     }
   },
