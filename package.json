@@ -20,13 +20,13 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3",
     "@angular/build": "^20.1.5",
-    "@angular/cli": "^18.0.0",
+    "@angular/cli": "^21.1.0",
     "@angular/compiler-cli": "^18.0.0",
     "tailwindcss": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^20.1.5",
-    "@angular/cli": "^18.0.1",
+    "@angular/cli": "^21.1.0",
     "@angular/compiler-cli": "^18.0.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
